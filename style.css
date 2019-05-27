@@ -553,7 +553,7 @@ nav * {
 
 .btn-buy {
     background-color: #FED434 !important;
-    color: white;
+    color: black;
     transition: 400ms;
 }
 
@@ -561,7 +561,7 @@ nav * {
     -webkit-filter: brightness(0.85);
     -o-filter: brightness(0.85);
     filter: brightness(0.85);
-    color: white;
+    color: black;
 }
 
 .card {
