@@ -4,7 +4,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: Source Sans Pro !important;
+    font-family: Source Sans Pro;
 }
 
 html, body {
@@ -423,90 +423,6 @@ nav * {
     font-size: 17px;
 }
 
-.number-work {
-    border: 4px solid #FED434;
-    padding: 10px 20px;
-    background-color: white;
-}
-
-.button-submit {
-    border: 4px solid #FED434;
-    font-size: 16px;
-    color: black;
-    padding: 12px;
-    transition: 400ms;
-}
-
-.button-submit:hover {
-    background-color: #FED434 !important;
-    color: black;
-    text-decoration: none;
-}
-
-.button-submit:focus {
-    outline: none;
-}
-
-.vklink:hover {
-    text-decoration: none;
-}
-
-.error-title {
-    font-family: Helvetica Neue;
-    letter-spacing: 15px;
-    font-size: 280px;
-    text-shadow: 10px 10px rgba(255,255,255,0.5);
-}
-
-.error-text {
-    text-shadow: 0px 0px 3px rgba(255,255,255,0.5);
-}
-
-.error-btn {
-    background-color: white;
-    border-radius: 30px;
-    box-shadow: 0px 0px 10px rgba(255,255,255,0.5);
-    font-size: 17px;
-    color: black;
-    transition: 400ms;
-}
-
-.error-btn:hover {
-    -webkit-transform: scale(1.05);
-    -ms-transform: scale(1.05);
-    -o-transform: scale(1.05);
-    transform: scale(1.05);
-    color: black;
-    text-decoration: none;
-}
-
-.form-submit {
-    border: 2px solid rgba(255,255,255,0.05);
-    border-radius: 10px;
-}
-
-.btn-buy {
-    background-color: #FED434 !important;
-    color: white;
-    transition: 400ms;
-}
-
-.btn-buy:hover {
-    -webkit-filter: brightness(0.85);
-    -o-filter: brightness(0.85);
-    filter: brightness(0.85);
-    color: white;
-}
-
-.contact-form {
-    background-color: white;
-    box-shadow: 0 0 8px 1.25px rgba(255,255,255,0.45)
-}
-
-.contact-form p {
-    font-size: 17.5px;
-}
-
 .list {
     margin: auto;
     list-style: none;
@@ -570,6 +486,108 @@ nav * {
     right: auto;
     left: 4px;
 }
+
+.number-work {
+    border: 4px solid #FED434;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.button-submit {
+    border: 4px solid #FED434;
+    font-size: 16px;
+    color: black;
+    padding: 12px;
+    transition: 400ms;
+}
+
+.button-submit:hover {
+    background-color: #FED434 !important;
+    color: black;
+    text-decoration: none;
+}
+
+.button-submit:focus {
+    outline: none;
+}
+
+.vklink:hover {
+    text-decoration: none;
+}
+
+.error-title {
+    font-family: Helvetica Neue;
+    letter-spacing: 15px;
+    font-size: 280px;
+    text-shadow: 10px 10px rgba(255,255,255,0.5);
+}
+
+.error-text {
+    text-shadow: 0px 0px 3px rgba(255,255,255,0.5);
+}
+
+.error-btn {
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(255,255,255,0.5);
+    font-size: 17px;
+    color: black;
+    transition: 400ms;
+}
+
+.error-btn:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+    color: black;
+    text-decoration: none;
+}
+
+.form-submit {
+    border: 2px solid rgba(255,255,255,0.05);
+    border-radius: 10px;
+}
+
+/*** PRICES ***/
+
+.btn-buy {
+    background-color: #FED434 !important;
+    color: white;
+    transition: 400ms;
+}
+
+.btn-buy:hover {
+    -webkit-filter: brightness(0.85);
+    -o-filter: brightness(0.85);
+    filter: brightness(0.85);
+    color: white;
+}
+
+.card {
+    box-shadow: 0 0 10px rgba(0,0,0,0.045);
+    transition: 400ms;
+}
+
+.card:hover {
+    box-shadow: 0 0 40px rgba(0,0,0,0.17);
+}
+
+.card-info {
+    font-size: 15px;
+}
+
+/*** CONTACT FORM ***/
+
+.contact-form {
+    background-color: white;
+    box-shadow: 0 0 8px 1.25px rgba(255,255,255,0.45)
+}
+
+.contact-form p {
+    font-size: 17.5px;
+}
+
 
 @media screen and (min-width: 768px) {
     .img-custom-2 {
